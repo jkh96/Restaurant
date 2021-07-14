@@ -1,1 +1,3 @@
-console.log('Setup');
+import { homePage }  from './home'
+
+homePage()
