@@ -7,7 +7,7 @@ function MenuPage() {
     // const homeH1 = document.createElement('h1')
     // const homeNav = document.createElement('nav')
     // const button1 = document.createElement('button')
-    const button2 = document.querySelector('btn-nav-2')
+    const button2 = document.querySelector('.btn-nav-2')
     // const button3 = document.createElement('button')
     
     // add classes
@@ -46,7 +46,7 @@ function MenuPage() {
     const CeasarSaladP = document.createElement('p')
 
     // Add Entree Clases
-
+    menuMain.classList.add('container')
     menuMain.classList.add('Menu')
     menuDiv.classList.add('Menu-list')
     entreesdiv.classList.add('entrees')
